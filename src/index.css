@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-theme: #A020F0;
+  --color-theme-cont: #EA5A0C;
+  --color-theme-a: #A020F0bb;
+  --color-theme-alt: #67159b;
+
+  --font-main: "Roboto Condensed", serif;
+  --font-main-a: "Smooch Sans", serif;
+  --font-main-alt: Oswald, serif;
+}
+
