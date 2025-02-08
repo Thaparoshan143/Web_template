@@ -11,8 +11,8 @@ const Navbar = () => {
   return (
     <nav className="flex flex-row justify-evenly items-center bg-white shadow-md text-theme font-bold">
         {
-            _navItems.map((props) => {
-                return <NavItem {...props} />
+            _navItems.map((props, ind) => {
+                return <NavItem key={ind} {...props} />
             })
         }
     </nav>
